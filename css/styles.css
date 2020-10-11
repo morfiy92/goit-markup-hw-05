@@ -118,6 +118,7 @@ img {
 .header .address {
 	margin-left: auto;
 }
+
 .address-list-item:not(:last-child) {
 	margin-right: 50px;
 }
@@ -463,8 +464,12 @@ img {
 
 .our-team-social-list {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	margin-bottom: 30px;
+}
+
+.our-team-social-list-item:not(:last-child) {
+	margin-right: 10px;
 }
 
 .our-team-social-list-link {
@@ -633,7 +638,7 @@ img {
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
-	color: rgba(255, 255, 255, 0.6);
+	color: var(--third-color);
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -648,14 +653,14 @@ img {
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-footer-map-link:hover,
+/*.address-footer-map-link:hover,
 .address-footer-map-link:focus,
 .address-footer-mail-link:hover,
 .address-footer-mail-link:focus,
 .address-footer-tel-link:hover,
 .address-footer-tel-link:focus {
 	color: var(--third-color);
-}
+}*/
 
 .address-footer {
 	width: 231px;
@@ -749,6 +754,7 @@ img {
 .pottfolio-filters-btn:focus {
 	color: var(--third-color);
 	background: var(--accent-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	cursor: pointer;
 }
 /*======= end pottfolio filters =======*/
